@@ -48,7 +48,6 @@ Image-Based Automation with Python - creating a Python automation script that in
         <li>Search for the money image on the screen.</li>
         <li>Click the money automatically when it’s found.</li>
     </ul>
-    <a href="https://github.com/aidevsurya/MoneyTreeGame-Bot"> CLICK HERE FOR SOURCE CODE </a>
     <h2>Conclusion</h2>
     <p>Image-based automation is a powerful tool for automating repetitive tasks, whether it's in software applications, web browsing, or even games. By leveraging Python and libraries like <strong>PyAutoGUI</strong>, you can automate interactions with applications that rely on visual elements, making your workflows more efficient and effective.</p>
     <p>In this blog, we walked through a practical example of automating a simple game, <strong>Idle Money Tree</strong>, using image detection to simulate clicks. With this knowledge, you can expand your automation skills to a wide range of use cases, from gaming to software testing and beyond.</p>
