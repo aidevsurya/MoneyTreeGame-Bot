@@ -8,14 +8,12 @@ Image-Based Automation with Python - creating a Python automation script that in
     <h2>What is Automation Technology?</h2>
     <p>Automation technology refers to using software to perform tasks that would otherwise require human intervention. From everyday administrative tasks to highly complex operations in industries like manufacturing and healthcare, automation enhances efficiency, minimizes human errors, and often leads to cost savings.</p>
     <p>For software and game automation, Python is a go-to tool. With libraries like <strong>PyAutoGUI</strong> and <strong>OpenCV</strong>, you can automate interactions with applications by detecting visual elements and performing actions based on their location.</p>
-
     <h2>Key Points to Know About Image-Based Automation</h2>
     <ul>
         <li><strong>What is Image-Based Automation?</strong> Image-based automation involves detecting and interacting with specific images or visual elements on a screen, often when no other method (like APIs) is available. It uses image matching techniques to locate buttons, icons, or objects on the screen and automates actions like clicking or typing.</li>
         <li><strong>How Does It Work?</strong> The automation process works by comparing a reference image (e.g., a screenshot of the target button) with the pixels on the screen. If a match is found, the automation script can take action, such as moving the mouse to the target location and clicking on it.</li>
         <li><strong>Why Use Python for Automation?</strong> Python's ease of use, powerful libraries, and widespread community support make it an excellent choice for automating tasks. Libraries like <strong>PyAutoGUI</strong> allow you to control the mouse and keyboard, while <strong>OpenCV</strong> helps with image processing and recognition.</li>
     </ul>
-
     <h2>Real-Life Uses of Image-Based Automation</h2>
     <ul>
         <li><strong>Automating Repetitive Tasks:</strong> Whether it’s logging into websites, submitting forms, or clicking buttons in applications, image-based automation can save hours of manual labor.</li>
@@ -23,11 +21,9 @@ Image-Based Automation with Python - creating a Python automation script that in
         <li><strong>Software Testing:</strong> Developers use automation to simulate user interactions and test UI elements across multiple platforms.</li>
         <li><strong>Data Entry:</strong> Automatically filling in data across different platforms or applications can save time, especially in large-scale operations.</li>
     </ul>
-
     <h2>Our Aim in This Blog</h2>
     <p>The primary goal of this blog is to walk you through creating a Python automation script that interacts with the <strong>Money Tree</strong> game on Poki. We will use <strong>image-based automation</strong> to detect when money is falling from the tree and simulate a click to collect it.</p>
     <p>This tutorial will not only introduce you to the concept of image-based automation but also give you a practical example of applying it to a game. By the end of this blog, you’ll understand how to automate simple in-game tasks, saving you time and boosting your game progression. Whether you’re automating gameplay or looking to automate other tasks, this guide will provide you with the essential tools to get started.</p>
-
     <h2>What Are We Going to Build?</h2>
     <p>We will build a Python script that:</p>
     <ul>
@@ -36,7 +32,6 @@ Image-Based Automation with Python - creating a Python automation script that in
         <li><strong>Detects when money falls from the tree</strong> by recognizing images of the money on the screen.</li>
         <li><strong>Clicks the money</strong> to collect it, automating the process.</li>
     </ul>
-
     <h2>Tools We Need</h2>
     <ul>
         <li><strong>Python</strong> – The programming language we'll use to write the automation script.</li>
@@ -45,7 +40,6 @@ Image-Based Automation with Python - creating a Python automation script that in
         <li><strong>OpenCV</strong> (Optional) – A powerful library for computer vision tasks, which we will use for image recognition.</li>
         <li><strong>Time</strong> – A built-in Python module to introduce delays, allowing the game to load before interaction.</li>
     </ul>
-
     <h2>The Source Code and Breakdown</h2>
     <p>Let’s now dive into the source code, where we’ll:</p>
     <ul>
